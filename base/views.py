@@ -186,5 +186,6 @@ def deleteMessage(request,pk):
 def updateUser(request):
     user = request.user
     form = UserForm(instance=user)
-    return render(request,'base/update-user.html')
+    context = { 'form' : form, }
+    return render(request,'base/update-user.html',context)
     
