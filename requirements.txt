@@ -1,1 +1,1 @@
-Django==3.x.x;  # or any version you're using
+Django==5.1.1  # or any version you're using
